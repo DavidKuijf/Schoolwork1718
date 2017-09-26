@@ -226,11 +226,11 @@ public class temp extends JFrame {
 		contentPane.add(textFieldrec);
 		textFieldrec.setColumns(10);
 		
-		JLabel lblWeight = new JLabel("weight");
+		JLabel lblWeight = new JLabel("Weight");
 		lblWeight.setBounds(118, 95, 46, 14);
 		contentPane.add(lblWeight);
 		
-		JLabel lblLenght = new JLabel("lenght");
+		JLabel lblLenght = new JLabel("Lenght");
 		lblLenght.setBounds(118, 145, 46, 14);
 		contentPane.add(lblLenght);
 		
