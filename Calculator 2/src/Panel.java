@@ -73,7 +73,7 @@ public class Panel extends JFrame {
 		});
 	}
 
-	/**
+	/**a
 	 * Create the frame.
 	 */
 	public Panel() {

@@ -173,7 +173,7 @@ public static void exercise33(){
     }
     System.out.println("Final " + number);
 }
-
+public static void test() {}
 
 
 
