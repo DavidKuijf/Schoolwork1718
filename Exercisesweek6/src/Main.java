@@ -204,7 +204,7 @@ public class Main {
 		for (int i = 0 ; i < array.length; i++) {
 			System.out.print("\n");
 			for (int a = 0; a < array.length; a++) {
-				System.out.print(array[i][a]+", ");
+				System.out.print(array[i][a]+",\t");
 			}
 			System.out.println("");
 		}
@@ -212,7 +212,7 @@ public class Main {
 		for (int i = 0 ; i < array.length; i++) {
 			System.out.print("\n");
 			for (int a = 0; a < array.length; a++) {
-				System.out.print(array[a][i]+", ");
+				System.out.print(array[a][i]+",\t");
 			}
 			System.out.println("");
 		}
@@ -223,7 +223,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		//Opdracht1en2();
 		//Galgje();
-		//Opdracht10();
+		Opdracht10();
 	}
 
 }
