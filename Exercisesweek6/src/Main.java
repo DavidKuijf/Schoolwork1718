@@ -188,12 +188,31 @@ public class Main {
 	
 		}
 	static void Opdracht10() {
-		int[][] array = {{1,2,3},{4,5,6},{7,8,9}};
-		//int[][] array2 = {{array[0][0],array[1][0],array[2][0]},{array[0][1],array[1][1],array[2][1]},{array[0][2],array[1][2],array[2][2]}};
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the size of your matrix");
+		int matrixsize = input.nextInt();
+		int current = 0;
+		int[][] array = new int[matrixsize][matrixsize];
+		
+		for (int i = 0; i < matrixsize; i++) {
+			for(int a = 0; a <matrixsize; a++) {
+				current++;
+				array[i][a]=current;
+			}
+		}
+		
 		for (int i = 0 ; i < array.length; i++) {
-			for (int a = 0; a < 3; a++) {
-				System.out.print(array[a][i]);
-				//System.out.println(Arrays.deepToString(array2));
+			System.out.print("\n");
+			for (int a = 0; a < array.length; a++) {
+				System.out.print(array[i][a]+", ");
+			}
+			System.out.println("");
+		}
+		
+		for (int i = 0 ; i < array.length; i++) {
+			System.out.print("\n");
+			for (int a = 0; a < array.length; a++) {
+				System.out.print(array[a][i]+", ");
 			}
 			System.out.println("");
 		}
@@ -204,7 +223,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		//Opdracht1en2();
 		//Galgje();
-		Opdracht10();
+		//Opdracht10();
 	}
 
 }
