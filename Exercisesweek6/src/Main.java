@@ -25,14 +25,14 @@ public class Main {
 		System.out.println("arraytwo:");
 		for(int i =0 ; i < 500; i++) {
 			System.out.println(arraytwo[i]);
-			som2 = som2 + arrayone[i];
+			som2 = som2 + arraytwo[i];
 		}
 		System.out.println("de some is: " + som2);
 		
 		System.out.println("arrayone:");
 		for(int i =0 ; i < 500; i++) {
 			System.out.println(arraythree[i]);
-			som3 = som3 + arrayone[i];
+			som3 = som3 + arraythree[i];
 		}
 		System.out.println("de some is: " + som3);
 	}
