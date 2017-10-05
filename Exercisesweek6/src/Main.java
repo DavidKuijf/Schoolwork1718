@@ -223,7 +223,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		//Opdracht1en2();
 		//Galgje();
-		Opdracht10();
+		//Opdracht10();
 	}
 
 }
