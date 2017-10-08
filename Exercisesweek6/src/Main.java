@@ -222,7 +222,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Opdracht1en2();
-		//Galgje();
+		Galgje();
 		//Opdracht10();
 	}
 

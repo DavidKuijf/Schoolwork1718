@@ -25,6 +25,8 @@ public static void exercise5(){
     int Three = One*Two;
     System.out.println(Three);
 }
+
+
 public static void exercise6(){
     System.out.println("Inoput 2 whole numbers");
     Scanner input = new Scanner(System.in);
